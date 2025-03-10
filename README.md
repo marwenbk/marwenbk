@@ -1,10 +1,10 @@
 ## Hi there 👋, my name is Marwen Ben Khemis
 
  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marwenbenkhemis)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/marwenbk)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marwen-ben-khemis-113809118)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/KhemisMarwen)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marwenbk)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@marwenbk)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@marwanbk2000)
 
 ## 👤 About Me
 
@@ -16,9 +16,7 @@ When I'm not coding or strategizing, I enjoy fitness 🏋️, gaming 🎮, and e
 
 ## 💡 I'm Currently Working On
 
-[![Makhbazti](https://img.shields.io/badge/Makhbazti-FF6F00?style=for-the-badge&logo=nuxt.js&logoColor=white)](https://github.com/marwenbk/makhbazti)
-[![khobztiApi](https://img.shields.io/badge/khobztiApi-232F3E?style=for-the-badge&logo=node.js&logoColor=white)](https://github.com/marwenbk/khobztiApi)
-[![Smart ERP](https://img.shields.io/badge/SmartERP-1572B6?style=for-the-badge&logo=azure-devops&logoColor=white)](https://github.com/marwenbk/smart-erp)
+[![Makhbazti](https://img.shields.io/badge/Makhbazti-FF6F00?style=for-the-badge&logo=nuxt.js&logoColor=white)](https://makhbazti.tn)
 
 ## 🌱 I'm Currently Learning
 
@@ -46,6 +44,6 @@ When I'm not coding or strategizing, I enjoy fitness 🏋️, gaming 🎮, and e
 
 ## 💌 Let's Connect
 
-[![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:marwenbk@example.com)
+[![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:ceo@makhbazti.tn)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/marwenbk)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marwenbk)
