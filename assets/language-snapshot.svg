@@ -1,0 +1,28 @@
+<svg width="540" height="210" viewBox="0 0 540 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="540" height="210" rx="14" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="539" height="209" rx="13.5" stroke="#30363d"/>
+  <text x="28" y="38" fill="#3fb950" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Language snapshot</text>
+  <text x="414" y="38" fill="#8b949e" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12">source repos</text>
+
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">
+    <text x="30" y="76" fill="#c9d1d9">Dart</text>
+    <rect x="128" y="63" width="220" height="14" rx="7" fill="#58a6ff"/>
+    <text x="366" y="76" fill="#8b949e">4 repos</text>
+
+    <text x="30" y="104" fill="#c9d1d9">Python</text>
+    <rect x="128" y="91" width="110" height="14" rx="7" fill="#f2cc60"/>
+    <text x="366" y="104" fill="#8b949e">2 repos</text>
+
+    <text x="30" y="132" fill="#c9d1d9">HTML</text>
+    <rect x="128" y="119" width="110" height="14" rx="7" fill="#e34c26"/>
+    <text x="366" y="132" fill="#8b949e">2 repos</text>
+
+    <text x="30" y="160" fill="#c9d1d9">JS / Java / C++ / C</text>
+    <rect x="208" y="147" width="55" height="14" rx="7" fill="#f1e05a"/>
+    <rect x="270" y="147" width="55" height="14" rx="7" fill="#b07219"/>
+    <rect x="332" y="147" width="55" height="14" rx="7" fill="#f34b7d"/>
+    <rect x="394" y="147" width="55" height="14" rx="7" fill="#555555"/>
+
+    <text x="30" y="188" fill="#8b949e">also: docs, coursework, forks, package experiments</text>
+  </g>
+</svg>

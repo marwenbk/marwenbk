@@ -73,13 +73,11 @@ The pattern I keep coming back to:
 ## GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=marwenbk&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marwenbk&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=F59E0B&currStreakLabel=3FB950" height="165" alt="GitHub streak" />
+  <img src="./assets/github-overview.svg" height="165" alt="GitHub snapshot" />
+  <img src="./assets/language-snapshot.svg" height="165" alt="Language snapshot" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marwenbk&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8&hide=jupyter%20notebook" height="165" alt="Top languages" />
-</p>
+These are local static cards so the profile does not depend on third-party stats services.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/marwenbk/marwenbk/output/github-snake-dark.svg" alt="GitHub contribution trace" />
