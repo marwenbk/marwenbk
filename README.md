@@ -69,16 +69,3 @@ The pattern I keep coming back to:
 **Realtime:** Socket.IO, SSE, sync loops, background workers  
 **Infrastructure:** Docker, GitHub Actions, PM2, Ansible, Azure, health checks, deployment scripts  
 **AI workflows:** OCR/model pipelines, structured extraction, human review gates, deterministic post-processing
-
-## GitHub
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/marwenbk/marwenbk/250ff71/assets/github-overview.svg" height="165" alt="GitHub snapshot" />
-  <img src="https://raw.githubusercontent.com/marwenbk/marwenbk/250ff71/assets/language-snapshot.svg" height="165" alt="Language snapshot" />
-</p>
-
-These are local static cards so the profile does not depend on third-party stats services.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/marwenbk/marwenbk/output/github-snake-dark.svg" alt="GitHub contribution trace" />
-</p>
