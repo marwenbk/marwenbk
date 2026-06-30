@@ -1,118 +1,78 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Hey%2C+I'm+Marwen+%F0%9F%91%8B;Full-Stack+Engineer+%7C+System+Builder" alt="Typing SVG" />
-</h1>
+# Marwen Ben Khemis
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/marwen-ben-khemis-113809118"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://x.com/KhemisMarwen"><img src="https://img.shields.io/badge/-X-000000?style=flat&logo=x&logoColor=white" /></a>
-  <a href="https://medium.com/@marwanbk2000"><img src="https://img.shields.io/badge/-Medium-12100E?style=flat&logo=medium&logoColor=white" /></a>
-  <a href="mailto:ceo@makhbazti.tn"><img src="https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+Full-stack engineer and system builder focused on operational software: AI-assisted workflows, role-centered UX, offline-first retail, hardware integrations, real-time systems, and production reliability.
+
+I care about interfaces that help people do real work under constraints: cashier flows that survive network loss, operator consoles that expose the next safe action, review systems that turn human judgment into typed state, and backend contracts that make failures visible instead of quietly dangerous.
+
+<p>
+  <a href="https://www.linkedin.com/in/marwen-ben-khemis-113809118"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://medium.com/@marwanbk2000"><img src="https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
+  <a href="https://x.com/KhemisMarwen"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
+  <a href="mailto:marwanbk2000@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
----
+## Current Focus
 
-### About
+- **Bounded AI systems:** model extraction where ambiguity exists, deterministic authority where business truth matters.
+- **Role-centered UX:** designing screens around responsibilities, permissions, risk, and next action instead of a generic "user."
+- **Operational reliability:** event logs, freshness envelopes, background workers, explicit degraded states, and domain-specific CI.
+- **Offline and edge retail:** local queues, stale-auth handling, receipt/printer/scale/scanner integrations, and resilient checkout flows.
+- **Contract-first platforms:** OpenAPI, generated SDKs, typed payloads, and runtime/CI checks that treat generated clients as product surface.
 
-Full-stack engineer from Djerba, Tunisia. I build multi-platform systems — real-time sync, AI pipelines, offline-first architecture, hardware integrations. I care about shipping products that work at every layer, from the database to the thermal printer.
+## Public Field Notes
 
-**Things I enjoy engineering:** SDK auto-generation from OpenAPI specs &bull; WebAuthn/passkey auth systems &bull; SSE streaming pipelines &bull; Socket.IO real-time sync &bull; offline-first mobile with local persistence &bull; zero-downtime deploys with auto-rollback
+I am turning private production lessons into public, sanitized engineering notes:
 
----
+[**engineering-field-notes**](https://github.com/marwenbk/engineering-field-notes)
 
-### What I'm Building
+Topics include:
 
-<table>
-<tr>
-<td width="33%" valign="top">
+- The model extracts; the system decides
+- Human review as a typed contract
+- Role-centered UX for big operational systems
+- Shadow-run, verify, then delete
+- A green API ping does not mean the operation is alive
+- Offline POS as queue ownership
+- Revert noise, keep correctness
 
-**Jerbien**
+Everything in that repo is synthetic and public-safe: no private screenshots, customer data, hostnames, credentials, raw payloads, or internal system names.
 
-Full-stack POS ecosystem — REST API with auto-generated OpenAPI SDKs (Dart + TypeScript), Nuxt dashboard, Flutter mobile client.
+## Selected Work
 
-Real-time Socket.IO sync, offline-first with local persistence, thermal printer integration, barcode & weight-scale hardware bridge.
+| Work | What it proves |
+|---|---|
+| **Retail POS ecosystem** | Offline-first mobile, real-time sync, generated SDKs, payment/order flows, printer/barcode/scale integrations |
+| **AI-assisted document workflow** | OCR/model extraction, human review gates, typed snapshots, event logs, background processing, operator dashboards |
+| **Multi-tenant business platform** | WebAuthn/passkeys, TOTP, JWT auth, real-time inventory, Flutter clients, health-checked deploys |
+| **Engineering field notes** | Public communication around architecture, reliability, product judgment, and role-centered UX |
 
-`Node.js` `Express` `PostgreSQL` `Prisma` `Nuxt 4` `Flutter` `Socket.IO` `Azure`
+## Engineering Taste
 
-</td>
-<td width="33%" valign="top">
+I like systems that are boring at the right layer:
 
-**Karta**
+- deterministic parsing when input is structured
+- model calls only where ambiguity is real
+- append-only events when auditability matters
+- explicit degraded states instead of hidden fallback behavior
+- role-specific workspaces instead of generic dashboards
+- CI checks that encode domain failures, not only badge collection
 
-AI-powered document processing pipeline. Gemini vision extracts structured data from PDFs, FastAPI backend with SSE streaming for real-time progress.
+## Tech Stack
 
-Full type-safe Python 3.14+ with Pydantic v2 validation, async httpx with HTTP/2, headless browser automation.
+**Backend:** Node.js, Express, FastAPI, Python, TypeScript, PostgreSQL, MongoDB, Prisma  
+**Frontend:** Vue, Nuxt, Tailwind CSS, dashboards, operational interfaces  
+**Mobile/Edge:** Flutter, Dart, offline-first local state, hardware bridges  
+**Realtime:** Socket.IO, SSE, background workers, sync loops  
+**Infra:** Docker, GitHub Actions, PM2, Ansible, Azure, health checks, deployment scripts  
+**AI:** OCR/model pipelines, structured extraction, typed review workflows, deterministic post-processing
 
-`Python 3.14` `FastAPI` `Gemini AI` `Pydantic v2` `PostgreSQL` `SSE` `httpx`
-
-</td>
-<td width="33%" valign="top">
-
-**Tayara-STD**
-
-Multi-tenant SaaS with WebAuthn/passkey primary auth, TOTP 2FA, JWT dual-auth system. Real-time inventory sync across platforms.
-
-Cross-platform Flutter client with Hive offline storage. Deployed via rsync + PM2 with health checks and auto-rollback.
-
-`Node.js` `MongoDB` `Nuxt 4` `Flutter` `WebAuthn` `Socket.IO` `Sentry`
-
-</td>
-</tr>
-</table>
-
----
-
-### Tech Stack
-
-**Backend** &nbsp;
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-
-**Frontend** &nbsp;
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)
-![Nuxt](https://img.shields.io/badge/-Nuxt-00DC82?style=flat&logo=nuxt.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-
-**Mobile** &nbsp;
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&logoColor=white)
-
-**Data** &nbsp;
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
-
-**Infra** &nbsp;
-![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![PM2](https://img.shields.io/badge/-PM2-2B037A?style=flat&logo=pm2&logoColor=white)
-![Ansible](https://img.shields.io/badge/-Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
-
-**AI** &nbsp;
-![Google Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-
-**Real-time** &nbsp;
-![Socket.IO](https://img.shields.io/badge/-Socket.IO-010101?style=flat&logo=socket.io&logoColor=white)
-
----
-
-### GitHub Stats
+## Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=marwenbk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marwenbk&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=marwenbk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9" height="170" alt="GitHub stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marwenbk&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" height="170" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marwenbk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&langs_count=8&hide=jupyter%20notebook" height="170" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/marwenbk/marwenbk/output/github-snake-dark.svg" alt="Snake animation" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marwenbk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&langs_count=8&hide=jupyter%20notebook" height="170" alt="Top languages" />
 </p>
