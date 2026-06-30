@@ -69,3 +69,7 @@ The pattern I keep coming back to:
 **Realtime:** Socket.IO, SSE, sync loops, background workers  
 **Infrastructure:** Docker, GitHub Actions, PM2, Ansible, Azure, health checks, deployment scripts  
 **AI workflows:** OCR/model pipelines, structured extraction, human review gates, deterministic post-processing
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/marwenbk/marwenbk/output/github-snake-dark.svg" alt="GitHub contribution trace" />
+</p>
