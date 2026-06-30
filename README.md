@@ -73,8 +73,8 @@ The pattern I keep coming back to:
 ## GitHub
 
 <p align="center">
-  <img src="./assets/github-overview.svg?v=20260630" height="165" alt="GitHub snapshot" />
-  <img src="./assets/language-snapshot.svg?v=20260630" height="165" alt="Language snapshot" />
+  <img src="https://raw.githubusercontent.com/marwenbk/marwenbk/250ff71/assets/github-overview.svg" height="165" alt="GitHub snapshot" />
+  <img src="https://raw.githubusercontent.com/marwenbk/marwenbk/250ff71/assets/language-snapshot.svg" height="165" alt="Language snapshot" />
 </p>
 
 These are local static cards so the profile does not depend on third-party stats services.
